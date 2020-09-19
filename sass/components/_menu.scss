@@ -1,0 +1,31 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  list-style: none;
+  /* color: #fff !important; */
+  /* width: auto; */
+  /* display: inline-block; */
+  /* padding: 0 10px; */
+  margin: 0 auto;
+}
+
+.menu_item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#menu_logo {
+  margin: 0 50px;
+}

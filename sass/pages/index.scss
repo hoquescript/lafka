@@ -1,0 +1,186 @@
+@import "../layout/base";
+
+header {
+  background-color: #a5102e;
+  background-image: url("../image/blur-tomato.png");
+  background-size: cover;
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+}
+
+@import "../components/menu";
+
+.header-body {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/vintage-burst3.png");
+  background-repeat: no-repeat;
+  background-position: center 8px;
+  background-size: 40%;
+}
+
+#logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 110px;
+  height: auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-text-stroke: 0 !important;
+  box-sizing: inherit;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+.primary-heading {
+  text-align: center;
+  font-size: 48px !important;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.3em;
+}
+
+.secondary-heading {
+  color: #fff;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.burger-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button {
+  border: 0;
+  margin-top: 65px;
+  background-color: #ca0930;
+  color: #ffffff;
+  margin-bottom: 10%;
+  border-radius: 2em;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+  box-sizing: inherit;
+  letter-spacing: 1px;
+}
+
+.category {
+  background-color: #fff;
+  background-image: url("../image/blur-fries.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.category_title {
+  text-align: center;
+}
+
+.category_title h5 {
+  color: #a5102e;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.category_title h3 {
+  color: #22272d;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.category_burgers {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.category_burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.order_Btn {
+  background-color: #a5102e;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2em;
+  background-size: 200%;
+  background-position: 0 100%;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.12) !important;
+  font-family: Rubik;
+  max-width: 100%;
+  outline: 0 none;
+}
+.css {
+  background-image: url("../image/blur-fries.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px;
+  background-color: #f9c744;
+}
+.category_heading {
+  color: #6e4d42;
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 200%;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-text-stroke: 0 !important;
+  box-sizing: inherit;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.category_fries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@import "../components/footer";
