@@ -1,0 +1,35 @@
+.burger{
+  &_hero{
+    border: 1px solid #eee;
+    padding: 10px 0 10px 10px;
+  }
+  &_price{
+    display: inline-block;
+    background-color: #4d2c21;
+    color: #feda5e;
+    padding: 9px 30px 9px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    letter-spacing: 2px;
+    &-subscript{
+      font-size: 12px;
+      position: absolute;
+      top:5px;
+    }
+  }
+  &_image{
+    overflow: hidden;
+    width: 98%;
+  }
+  &_title{
+
+  }
+  &_details{
+
+  }
+  &_order{
+
+  }
+}
+
