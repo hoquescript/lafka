@@ -224,6 +224,10 @@ nav {
   flex-direction: column;
 }
 
+.burger {
+  text-align: center;
+}
+
 .burger_hero {
   border: 1px solid #eee;
   padding: 10px 0 10px 10px;
@@ -251,19 +255,48 @@ nav {
   width: 98%;
 }
 
+.burger_title {
+  font-family: "Rubik", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.burger_content {
+  padding: 25px 0px 15px;
+}
+
+.burger_details {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
 .footer {
   background-color: #a5102e;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 100px;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  -webkit-text-stroke: 0 !important;
+  padding: 20px;
+}
+
+.footer_image {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer_terms {
+  color: white;
+  margin: 10px 10px 20px 5px;
   text-align: center;
-  line-height: normal;
+  font-weight: 100;
+}
+
+.footer_icon-wrapper {
+  text-align: center;
+}
+
+.footer_image-burger {
+  width: 250px;
 }
 /*# sourceMappingURL=index.css.map */

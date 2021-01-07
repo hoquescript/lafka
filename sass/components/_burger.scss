@@ -1,4 +1,5 @@
 .burger{
+  text-align: center;
   &_hero{
     border: 1px solid #eee;
     padding: 10px 0 10px 10px;
@@ -23,10 +24,18 @@
     width: 98%;
   }
   &_title{
-
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  &_content{
+    padding: 25px 0px 15px;
   }
   &_details{
-
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
   }
   &_order{
 
